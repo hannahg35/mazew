@@ -12,3 +12,5 @@ pub mod grid;
 */
 // Add modules below
 pub mod collision;
+pub mod scale;
+pub mod preload_image;

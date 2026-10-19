@@ -14,3 +14,4 @@ pub mod grid;
  pub mod grid;
  pub mod still_image;
  pub mod label;
+ pub mod image_button;

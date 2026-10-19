@@ -5,11 +5,11 @@ edition = "2024"
 
 [dependencies]
 macroquad = "0.4.16"
+image = "0.25.10"
 
 [features]
-    default = ["native"]  # Default feature includes "native"
-    native = ["dep:rayon"]    # The "native" feature enables Rayon
-
+default = ["native"]
+native = ["dep:rayon"]
 rayon = ["dep:rayon"]
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
